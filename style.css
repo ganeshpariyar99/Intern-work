@@ -1,0 +1,19 @@
+#header{
+    background-color: rgb(226, 178, 18);
+    width: 37rem;
+    height: 3rem;
+    text-align: center;
+}
+
+nav{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul{
+    display: flex;
+    gap: 4rem;
+    margin-left: 4rem;
+}
