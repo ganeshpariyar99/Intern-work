@@ -80,8 +80,6 @@ function ContactPage() {
 	);
 }
 
-
-
 function NotFoundPage() {
 	return (
 		<section className="page-card">
@@ -115,6 +113,17 @@ function App() {
 				<Route path="/home" element={<Navigate to="/" replace />} />
 				<Route path="*" element={<NotFoundPage />} />
 			</Routes>
+
+			<footer className="app-footer">
+				<div className="footer-content">
+					<h3>Personal Information</h3>
+					<p><strong>Name:</strong> John Doe</p>
+					<p><strong>Email:</strong> john.doe@example.com</p>
+					<p><strong>Phone:</strong> (123) 456-7890</p>
+					<p><strong>Location:</strong> New York, NY</p>
+					<p>&copy; 2024 My Website. All rights reserved.</p>
+				</div>
+			</footer>
 		</main>
 	);
 }
