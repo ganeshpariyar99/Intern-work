@@ -1,6 +1,6 @@
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import './App.css';
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import './App.css'
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <main className="main-content">
         <section className="hero">
           <div className="hero-content">
-            <h1>Welcome to Our Landing Page</h1>
+            <h1>Welcome to Landing Page</h1>
             <p>Discover amazing content and explore our services</p>
             <button className="cta-button">Get Started</button>
           </div>
@@ -28,16 +28,15 @@ function App() {
               <p>Simple and intuitive interface designed for everyone.</p>
             </div>
             <div className="feature-card">
-              <h3>24/7 Support</h3>
+              <h3> 24/7 Support</h3>
               <p>Round-the-clock customer support to help you anytime.</p>
             </div>
           </div>
         </section>
       </main>
-
       <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

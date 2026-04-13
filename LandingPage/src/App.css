@@ -21,6 +21,7 @@
   font-size: 3rem;
   margin: 0 0 1rem 0;
   font-weight: bold;
+  letter-spacing: -0.5px;
 }
 
 .hero-content p {
@@ -38,11 +39,13 @@
   border-radius: 4px;
   cursor: pointer;
   font-weight: bold;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .cta-button:hover {
   background-color: #4fa8c5;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Features Section */
@@ -70,7 +73,8 @@
   padding: 2rem;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
+  text-align: center;
 }
 
 .feature-card:hover {
@@ -109,5 +113,10 @@
 
   .features-grid {
     gap: 1.5rem;
+  }
+
+  .features {
+    margin: 2rem auto;
+    padding: 0 1rem;
   }
 }
